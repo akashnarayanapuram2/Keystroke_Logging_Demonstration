@@ -1,99 +1,95 @@
-Keystroke Logging Demonstration
-Project Overview
+Keystroke Logging Demonstration                                                               
+📌 Project Overview                                                                                                                
 
-The Keystroke Logging Demonstration project provides hands-on exposure to capturing keyboard input events at the operating system level. This project is developed strictly for educational and defensive cybersecurity purposes, enabling learners to understand keystroke-based attack techniques so they can be effectively detected and prevented in real-world environments.
+The Keystroke Logging Demonstration project provides hands-on exposure to system-level keyboard input monitoring at the operating system level. This project is developed strictly for educational and defensive cybersecurity purposes, enabling learners to understand keystroke-based attack techniques and how such threats can be detected and prevented in real-world environments.
 
-The application captures keyboard input events in real time, helping users understand how keystroke monitoring works and the potential cybersecurity risks associated with such techniques when misused.
+The application captures keyboard input events in real time, demonstrating how keystroke logging operates while emphasizing ethical use and cybersecurity awareness.                                               
 
-Captured Events
+⌨️ Captured Keyboard Events                                                                                                    
 
-The system records the following keyboard events:
+The system records the following keyboard interactions:                                                                                  
 
-Key Press
+Key Press                                                                              
 
-Key Hold
+Key Hold                                                                                
 
-Key Release
+Key Release                                                                                                   
 
-All captured events are stored in:
+All captured events are stored in:                                                                                              
 
-JSON format for structured data analysis
+JSON format — for structured data analysis                                                                                     
 
-Text format for easy human-readable interpretation
+Text format — for human-readable interpretation                                                                      
 
-A Tkinter-based graphical user interface (GUI) is included to control execution ethically and responsibly.
+A Tkinter-based Graphical User Interface (GUI) is included to control execution ethically and responsibly.                                                                           
 
-Key Features
+✨ Key Features                                                                                                                   
 
-Real-time keystroke monitoring
+Real-time keystroke monitoring                                                                                                
 
-Captures key press, hold, and release events
+Captures press, hold, and release events                                                                                                     
 
-Supports both alphanumeric and special keys
+Supports alphanumeric and special keys                                                                                                                
 
-Structured logging using JSON format
+Structured logging using JSON                                                                                                                            
 
-Text-based readable log files
+Readable text-based logs                                                                    
+          
+GUI-controlled execution using Tkinter                                                                                                      
 
-GUI-controlled execution using Tkinter
+Ethical and educational implementation                                                                                                                                           
 
-Ethical and educational implementation
+🛠️ Technologies Used                                                                                                                                                                           
 
-Technologies Used
+Python                                                                                                                                          
 
-Python
+pynput                                                                                                                                       
 
-pynput
+JSON                                                                                                                                        
 
-JSON
+File Handling                                                                                                         
 
-File Handling
+Tkinter                                                                                               
 
-Tkinter
-
-Folder & File Structure
-Keystroke-Logging-Demonstration/
-│
-├── keylogger.py          # Core keystroke logging logic
-├── keylogger_gui.py      # GUI-based execution using Tkinter
-├── logs.json             # Example JSON output (sample data only)
-├── logs.txt              # Example text output (sample data only)
-├── requirements.txt      # Project dependencies
-├── README.md             # Project documentation
+📁 Folder & File Structure                                                                                        
+Keystroke-Logging-Demonstration/                                                                                                        
+│                                                                                                                                        
+├── keylogger.py          # Core keystroke logging logic                                                                                                     
+├── keylogger_gui.py      # GUI-based execution using Tkinter                                                                                                                   
+├── logs.json             # Example JSON output (sample data only)                                                                                      
+├── logs.txt              # Example text output (sample data only)                                                                                                
+├── requirements.txt      # Project dependencies                                                                                                                 
+├── README.md             # Project documentation                                                                                                  
 
 
-Note:
-The logs.json and logs.txt files contain only sample/demo data and do not store real user information.
+Note:                                                                                                                                    
+The logs.json and logs.txt files contain only sample/demo data and do not store real user information.                                                                               
 
-Learning Outcomes
+🎯 Learning Outcomes                                                                                                                                 
 
-Understanding of system-level keyboard event handling
+By completing this project, learners gain:                                                                                                                               
 
-Awareness of keystroke-based cybersecurity threats
+Understanding of system-level keyboard event handling                                                                                                                  
 
-Practical experience with structured logging using JSON
+Awareness of keystroke-based cybersecurity threats                                                                                         
 
-Exposure to GUI-based cybersecurity tools
+Hands-on experience with structured logging using JSON                                                                                                                   
 
-Improved understanding of ethical considerations in security research
+Practical exposure to GUI-based cybersecurity tools                                                                                                                   
 
-Internship Information
+Knowledge of ethical considerations in security research                                                                                                                                
 
-This project was developed as part of a Cybersecurity Internship conducted by Edunet Foundation under the VOIS for Tech Program, supported by AICTE.
+🏢 Internship Information                                                                                                                        
 
-Internship Duration: December 2025 – January 2026
+This project was developed as part of a Cybersecurity Internship conducted by Edunet Foundation under the VOIS for Tech Program, supported by AICTE.                                         
 
-Internship Mode: Project-based learning with mentor guidance
+Internship Duration: December 2025 – January 2026                                                                                                               
 
-The project was completed solely for academic and learning purposes, in full compliance with internship guidelines and ethical standards.
+Internship Mode: Project-based learning with mentor guidance                                                                                                                      
+                                           
+The project was completed solely for academic and learning purposes, in full compliance with internship guidelines and ethical standards.                                                                         
 
-Ethical Disclaimer
+👤 Author                                                                        
 
-This project is intended only for educational and defensive cybersecurity learning.
-Any misuse of keystroke logging techniques for malicious purposes is unethical and illegal.
-The author does not promote or support unauthorized surveillance or data collection.
-
-Author
-
-Narayanapuram Akash
-Cybersecurity Intern
+Narayanapuram Akash                                                                                                  
+Cybersecurity Intern                                                                                                                                                                                                                            
